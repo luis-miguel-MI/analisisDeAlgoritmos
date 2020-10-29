@@ -10,7 +10,7 @@ struct arbolBB *crearABB(){//Se crea el nuevo árbol que apuntará a la raíz, e
 }
 
 
-struct nodo *crearNodo(int dato){//Creamos un nuevo nodo y conectamos cada parte de el, dato a dato, Izq a NULL y Der a NULL
+struct nodo *crearNodo(long int dato){//Creamos un nuevo nodo y conectamos cada parte de el, dato a dato, Izq a NULL y Der a NULL
     struct nodo *newNodo = (struct nodo *)malloc(sizeof(struct nodo));
     newNodo->dato = dato;
     newNodo->hijoIzq = NULL;
@@ -20,7 +20,7 @@ struct nodo *crearNodo(int dato){//Creamos un nuevo nodo y conectamos cada parte
 }
 
 
-void insertar(struct arbolBB *arbol, int dato){
+void insertar(struct arbolBB *arbol, long int dato){
     struct nodo *x = arbol->raiz; //Nuevo nodo x que tomara la posicion de la raiz
     struct nodo *y = NULL;//Nuevo nodo y que apunta a NULL
     struct nodo *newNodo = crearNodo(dato);//Creamos el nuevo nodo
@@ -45,10 +45,10 @@ void insertar(struct arbolBB *arbol, int dato){
     }
     
 }
-void guardarRecorridoInorden(struct arbolBB *arbol, int *A, int n){
+void guardarRecorridoInorden(struct arbolBB *arbol, long int *A, long int n){
     struct nodo *actual; 
     struct nodo *pre; 
-    int i = 0; 
+    long int i = 0; 
     if(arbol->raiz == NULL)
         return;
     

@@ -1,0 +1,84 @@
+#######################################################################
+#######################################################################
+
+Iniciando ordenamiento por: ARBOL BB de 100000 numeros
+
+ORDENANDO ...
+
+ORDENAMIENTO FINALIZADO
+
+Calculo de tiempo de ejecución
+real (Tiempo total)  0.0366530418 s
+user (Tiempo de procesamiento en CPU) 0.0365410000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   99.6943177592 % 
+
+
+Calculo de tiempo de ejecución en forma exponencial
+real (Tiempo total)  3.6653041840e-02 s
+user (Tiempo de procesamiento en CPU) 3.6541000000e-02 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   99.6943177592 % 
+
+
+#######################################################################
+-----------------------------------------------------------------------
+#######################################################################
+
+
+#######################################################################
+#######################################################################
+
+Iniciando ordenamiento por: ARBOL BB de 100 numeros
+
+ORDENANDO ...
+
+ORDENAMIENTO FINALIZADO
+
+Calculo de tiempo de ejecución
+real (Tiempo total)  0.0000159740 s
+user (Tiempo de procesamiento en CPU) 0.0000170000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   106.4226388060 % 
+
+
+Calculo de tiempo de ejecución en forma exponencial
+real (Tiempo total)  1.5974044800e-05 s
+user (Tiempo de procesamiento en CPU) 1.7000000000e-05 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   106.4226388060 % 
+
+
+#######################################################################
+-----------------------------------------------------------------------
+#######################################################################
+
+
+#######################################################################
+#######################################################################
+
+Iniciando ordenamiento por: ARBOL BB de 1000 numeros
+
+ORDENANDO ...
+
+ORDENAMIENTO FINALIZADO
+
+Calculo de tiempo de ejecución
+real (Tiempo total)  0.0001599789 s
+user (Tiempo de procesamiento en CPU) 0.0001630000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   101.8884578241 % 
+
+
+Calculo de tiempo de ejecución en forma exponencial
+real (Tiempo total)  1.5997886658e-04 s
+user (Tiempo de procesamiento en CPU) 1.6300000000e-04 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   101.8884578241 % 
+
+
+#######################################################################
+-----------------------------------------------------------------------
+#######################################################################
+
+
